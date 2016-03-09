@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7F1EC6D5-CF62-47E9-85DF-401FA1E5E0F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F0C523C2-A27E-476B-AB18-E24D8B7AF223}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Algorithms", "src\Algorithms\Algorithms.xproj", "{72CB08F5-77AB-40E1-8396-E55A6E7799B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72CB08F5-77AB-40E1-8396-E55A6E7799B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72CB08F5-77AB-40E1-8396-E55A6E7799B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72CB08F5-77AB-40E1-8396-E55A6E7799B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72CB08F5-77AB-40E1-8396-E55A6E7799B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{72CB08F5-77AB-40E1-8396-E55A6E7799B3} = {7F1EC6D5-CF62-47E9-85DF-401FA1E5E0F4}
+	EndGlobalSection
+EndGlobal
